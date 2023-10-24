@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio / Pedro Vitor</title>
+    <!--googleFontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!--estilos-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--img-->
+    <link rel="shortcut icon" href="img/logopequena.png" type="image/x-icon">
+</head>
+
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+
+    <header id="header-block">
+        <div>
+            <nav id="header-nav">
+                <div id="div-logo" onclick="getElementById('close-menu').checked = false;">
+                    <img id="logo-header" src="img/logo-sem-fundo.svg" alt="logo-header">
+                    <a id="name-header" href="#">Portfólio</a>
+                </div>
+                <ul id="nav-menu" onclick="getElementById('close-menu').checked = false;">
+                    <li class="itens-nav pag-inicial"><a href="#">Página inicial</a></li>
+                    <li class="itens-nav"><a href="#s-about">Sobre</a></li>
+                    <li class="itens-nav"><a href="#s-curriculo">Projetos</a></li>
+                    <li class="itens-nav"><a href="#rodape">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="s-home">
+        <div style="display: block;">
+            <div id="div-home">
+                <div class="animation-text">
+                    <div class="text-animation">
+                        <h1 id="text-home">Olá, me chamo Pedro Vitor, sou um jovem <span></span> apaixonado por
+                            tecnologia.</h1>
+                    </div>
+                    <p id="subtext-home">Sempre buscando soluções inovadoras para os desafios que surgem na programação
+                        e no
+                        desenvolvimento de software.</p>
+                    <a class="clickCurriculo" target="_blank"
+                        href="https://drive.google.com/file/d/1bSds34ulafoou17W3IjPOSmPxkiukWkO/view?usp=sharing">Currículo</a>
+                </div>
+                <div>
+                    <img id="logo-home" src="img/logo-sem-fundo.svg" alt="Logo">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="s-about">
+        <div id="div-about">
+            <div id="div-img-about">
+                <img id="img-about" src="img/about.png" alt="imagem ilustrativa de um jovem programando">
+            </div>
+            <div>
+                <div id="div-text-about">
+                    <h2 id="title-about">QUEM SOU</h2>
+                    <div>
+                        <p id="text-about">
+                            Olá, sou um programador talentoso, apaixonado pela arte da programação. Tenho
+                            habilidades técnicas em diversas ferramentas e uma mente analítica para resolver problemas
+                            complexos. Além disso, sou um excelente comunicador e estou sempre em busca de
+                            aprendizado. Minha dedicação e qualidade na criação de software me tornam um
+                            ativo valioso em qualquer equipe.
+                        </p>
+                    </div>
+                </div>
+                <div id="container-skill">
+                    <h2>MINHAS SKILLS</h2>
+                    <div class="container-icons">
+                        <div class="image-container">
+                            <img class="icones-skill" src="img/icon-react.png" alt="icone react.js">
+                            <div class="text-overlay">
+                                <p>React.js</p>
+                            </div>
+                        </div>
+                        <div class="image-container">
+                            <img class="icones-skill" src="img/icon-html.png" alt="icone html">
+                            <div class="text-overlay">
+                                <p>Html 5</p>
+                            </div>
+                        </div>
+                        <div class="image-container">
+                            <img class="icones-skill" src="img/icon-css.png" alt="icone css">
+                            <div class="text-overlay">
+                                <p>Css 3</p>
+                            </div>
+                        </div>
+                        <div class="image-container">
+                            <img class="icones-skill" src="img/icon-git.png" alt="icone git">
+                            <div class="text-overlay">
+                                <p>Git e GitHub</p>
+                            </div>
+                        </div>
+                        <div class="image-container">
+                            <img class="icones-skill" src="img/icon-javascript.png" alt="icone javascript">
+                            <div class="text-overlay">
+                                <p>JavaScript</p>
+                            </div>
+                        </div>
+                        <div class="image-container">
+                            <img class="icones-skill" src="img/icon-python.png" alt="icone python">
+                            <div class="text-overlay">
+                                <p>Python</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="s-curriculo">
+        <div id="div-curriculo">
+            <h1>Projetos<span>.</span></h1>
+            <div id="projetos">
+                <div class="grid-container">
+                    <div class="container" class="item-grid">
+                        <div class="absolut">
+                            <h2>OutBerry</h2>
+                            <p>Site criado para uma loja de açai,
+                                feito em React.js e JavaScript.
+                            </p>
+                            <div class="repositorio">
+                                <a href="https://github.com/P3Rod/repOutberry" target="_blank">ACESSE O REPOSITÓRIO</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container2" class="item-grid">
+                        <div class="absolut">
+                            <h2>WebTerror</h2>
+                            <p>Site de contos de terror,
+                                feito em Html, CSS e JavaScript.
+                            </p>
+                            <div class="repositorio">
+                                <a href="https://github.com/P3Rod/WebTerror/tree/master" target="_blank">ACESSE O REPOSITÓRIO</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="rodape">
+        <div class="container-rodape">
+            <div class="contatos">
+                <h1>Contato<span>s</span></h1>
+            </div>
+            <div class="container-contatos">
+                <div>
+                    <img class="img-contato" src="img/ft_eu.jpeg" alt="">
+                    <p>Pedro Vitor</p>
+                </div>
+                <div class="container-info">
+                    <div class="direction">
+                        <img class="icon-rodape" src="img/icon-localizacao.png" alt="">
+                        <h3>Brasília/DF</h3>
+                    </div>
+                    <div class="direction">
+                        <img class="icon-rodape" src="img/icon-whatsapp.png" alt="">
+                        <h3>61 99611 2085</h3>
+                    </div>
+                    <div class="direction">
+                        <img class="icon-rodape" src="img/icon-email.png" alt="">
+                        <h3>pvitorcorel@gmail.com</h3>
+                    </div>
+                </div>
+                <div class="rep-git">
+                    <h4>REPOSITÓRIO <span>GITHUB</span></h4>
+                    <div>
+                        <div class="git-container">
+                            <div class="image-wrapper">
+                                <img class="image-small" src="img/icon-github.png" alt="Imagem 1">
+                                <a href="https://github.com/P3Rod" target="_blank"><img class="image-large"
+                                        src="img/icon-github-red.png" alt="Imagem 2"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rep-git">
+                    <h4>ACESSE O <span>LINKEDIN</span></h4>
+                    <div>
+                        <div class="git-container">
+                            <div class="image-wrapper">
+                                <img class="image-small" src="img/icon-linkedin.png" alt="Imagem 1">
+                                <a href="https://www.linkedin.com/in/vitorod/" target="_blank"><img class="image-large"
+                                        src="img/icon-linkedin-red.png" alt="Imagem 2"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+
+    </section>
+    <a class="back-to-top" href="#">‹</a>
+
+</body>
+
+</html>
